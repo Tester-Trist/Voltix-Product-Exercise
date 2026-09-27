@@ -1,0 +1,12 @@
+feature,pct_accounts_weekly_active,notes
+Billing & invoicing,92%,"Core feature, consistently high usage across all accounts"
+Meter read management,88%,"Core feature, includes SMETS2 smart meter support"
+Switching in/out processing,85%,"Core feature, steady usage in line with market switching volumes"
+Complaints case management,79%,"Used regularly, volume tracks with Ofgem 8-week rule reporting"
+Agent console (case + billing lookup),91%,"High usage but avg agent handle time on calls needing cross-system lookups runs ~9 min above accounts using single-system workflows; concurrent tools/tabs open per call also elevated on these"
+Payment plans,74%,"Steady usage, upward trend since cost-of-living pressure increased"
+PSR / vulnerability flagging,35%,"Notably low relative to other compliance-adjacent features; usage concentrated in a handful of accounts rather than spread evenly"
+Direct debit management (agent-side),81%,"High usage but agent-initiated only - no customer self-serve exists in the product today"
+Ofgem compliance reporting,83%,"Core feature for regulated reporting"
+Account self-serve portal (customer-facing),58%,"Moderate usage, mostly balance checks and invoice downloads"
+Insights dashboard (customer-facing usage viz),4%,"Very low usage, closest existing feature to a consumer-facing usage/analytics view"

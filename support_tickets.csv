@@ -1,0 +1,51 @@
+id,date,account_name,channel,subject,body,agent_notes
+T-1001,2026-06-30,Kestrel Energy,phone,Cust cant see billing history,"Cust called in confused why last 3 bills not showing on portal. Had to log into old billing sys to check, took ages",re-keyed acc number twice on legacy sys - v slow call 14 mins
+T-1002,2026-07-02,Bramble Power,email,Meter read query,Agent needs to check smart meter read against consumption on legacy sys before responding to cust email,flip between voltix and legacy screens 3x to confirm figure
+T-1003,2026-07-02,Kestrel Energy,phone,PSR flag - how do i add,"agent asking how/where to flag a customer as vulnerable, couldnt find it easily in voltix",spent 10 mins looking for PSR toggle, eventually found under acc>notes not acc>flags where expected
+T-1004,2026-07-03,Orkney Watts,chat,DD amount change,cust wants to lower DD amount, agent said must call in - cust annoyed as says "should be able to just change it myself",escalated to team lead
+T-1005,2026-07-05,Bramble Power,phone,switch in delay,routine switch-in query,no issue - resolved first contact
+T-1006,2026-07-06,Fenwick Energy,phone,agent had to check 2 systems for one query,"cust asking why bill higher this month, had to check voltix for tariff then legacy billing engine for actual charge breakdown, put cust on hold twice",avg handle time way over - 22 min call
+T-1007,2026-07-07,Kestrel Energy,email,Complaint - vulnerable cust not flagged,"cust's daughter emailed saying her elderly mother should have been on PSR after a previous call, wasnt flagged, now missed a scheduled visit notification",need to raise as formal complaint under 8wk rule
+T-1008,2026-07-08,Solent Gas & Power,phone,invoice format request,cust wants itemised invoice emailed differently,straightforward, updated preference
+T-1009,2026-07-09,Bramble Power,chat,agent switching screens again,"agent said mid-chat ""bear with me, checking on the other system"" - had to alt-tab to legacy to confirm payment history",cust visibly frustrated in chat log
+T-1010,2026-07-10,Fenwick Energy,phone,PSR missed again,"cust on PSR register per legacy notes but voltix didnt surface it, agent almost sent standard comms without priority handling",caught by QA review after the fact
+T-1011,2026-07-11,Kestrel Energy,email,login issue,cust forgot password,resolved w standard reset link
+T-1012,2026-07-12,Orkney Watts,phone,DD date change request,cust asked to move DD date to align with payday,had to call back - no self serve option in voltix
+T-1013,2026-07-13,Bramble Power,phone,repeat contact - same issue,"3rd call this month re: same billing discrepancy, each time agent has to re-check legacy sys as voltix summary doesnt match",flagged as repeat contact
+T-1014,2026-07-14,Solent Gas & Power,chat,compliment,cust said agent was v helpful and quick,nice one for the team
+T-1015,2026-07-15,Fenwick Energy,phone,cant see full case history,"agent couldnt see cust's previous 2 calls logged in legacy sys from voltix screen, had to ask cust to repeat everything",cust said "why do I have to explain this again"
+T-1016,2026-07-16,Kestrel Energy,phone,PSR - where do i flag this,"another agent asking supervisor how to flag vulnerability, this is the 3rd time this month someone's asked in team chat",worth flagging to ops - PSR flow clearly not obvious
+T-1017,2026-07-17,Orkney Watts,email,meter reading dispute,cust disputes smart meter reading,checked against SMETS2 data, reading confirmed correct
+T-1018,2026-07-18,Bramble Power,phone,DD amend - had to call,cust wanted to reduce DD ahead of winter,no self-serve, had to process manually - cust said competitor lets you do this online
+T-1019,2026-07-19,Fenwick Energy,phone,long call - system switching,"cust query re backbilling, agent had 4 tabs open between voltix and legacy to piece together billing history",call logged at 26 mins - well above avg
+T-1020,2026-07-20,Kestrel Energy,chat,invoice question,simple invoice query,resolved quickly
+T-1021,2026-07-21,Solent Gas & Power,phone,PSR not applied to comms,"cust flagged for PSR last month but still got standard (non-large-print) letter, said this happened before too",process gap - flag exists somewhere but doesnt propagate to comms
+T-1022,2026-07-22,Orkney Watts,phone,switch out query,routine,no issue
+T-1023,2026-07-23,Bramble Power,email,repeat billing query,"cust's 2nd email this week, agent again had to cross ref legacy billing engine",same root cause as T-1013 - different acc same pattern
+T-1024,2026-07-24,Fenwick Energy,phone,DD self serve request,"cust asked directly ""can i just do this online"" re DD change - agent said no",logged as feature request
+T-1025,2026-07-25,Kestrel Energy,phone,cust waited on hold repeatedly,"agent had to put cust on hold 3x to check acc status across 2 systems, cust getting annoyed",handle time 19 min
+T-1026,2026-07-26,Solent Gas & Power,chat,payment plan setup,new payment plan requested due to cost of living,set up fine, no issues
+T-1027,2026-07-27,Orkney Watts,phone,PSR flagging confusion,agent unsure if PSR flag from legacy carried over to voltix after migration,escalated to ops - possible data gap
+T-1028,2026-07-28,Bramble Power,phone,meter read - smart meter,routine SMETS2 read check,fine
+T-1029,2026-07-29,Fenwick Energy,email,vulnerable cust missed callback,cust on PSR should have priority callback but wasnt flagged so went into standard queue,complaint risk - 2nd instance this month
+T-1030,2026-07-30,Kestrel Energy,phone,switching between systems again,"cust asking about a payment made 2 wks ago, shows in legacy but not yet synced to voltix, agent had to explain delay",cust confused why 2 systems dont match
+T-1031,2026-08-01,Solent Gas & Power,phone,DD amend via call only,cust wanted DD paused for a month,no self-serve option exists,processed manually
+T-1032,2026-08-02,Orkney Watts,chat,general question,asked about switching supplier back,resolved
+T-1033,2026-08-03,Bramble Power,phone,PSR - cust surprised it wasnt already flagged,"cust mentioned health condition on a call 6mo ago, assumed she'd been flagged, she hadnt been - agent had to backdate manually",cust said felt unheard
+T-1034,2026-08-04,Fenwick Energy,email,invoice PDF broken link,link in emailed invoice didnt work,IT ticket raised separately
+T-1035,2026-08-05,Kestrel Energy,phone,agent needed 2 screens for basic query,"cust asking simple ""what's my balance"" question took 8 min because voltix balance and legacy balance showed different figures",confusing for agent and cust
+T-1036,2026-08-06,Solent Gas & Power,phone,DD change frustration,"cust said ""every other company lets me do this in an app"" re DD amend",logged again as a recurring ask
+T-1037,2026-08-07,Orkney Watts,phone,routine switch in,no issues,fine
+T-1038,2026-08-08,Bramble Power,email,PSR flag lost after account update,"cust's PSR flag appears to have been overwritten when address was updated, caught by QA not by the system",potential systemic issue not just human error
+T-1039,2026-08-09,Fenwick Energy,phone,repeat call re billing mismatch,same issue as T-1019 and T-1023 pattern - different customer,worth aggregating - looks systemic not isolated
+T-1040,2026-08-10,Kestrel Energy,chat,compliment,cust said resolved quickly and agent was friendly,nice
+T-1041,2026-08-11,Solent Gas & Power,phone,PSR - cant find where to add note,"new agent (2wks in) couldnt locate psr flagging function at all, had to ask 2 colleagues",training gap noted separately but points to UX issue too
+T-1042,2026-08-12,Orkney Watts,phone,meter read dispute resolved,fine after check,no issue
+T-1043,2026-08-13,Bramble Power,phone,DD self serve ask again,cust asked why cant just log in and change DD themselves,4th time this exact phrase logged this month across accounts
+T-1044,2026-08-14,Fenwick Energy,email,case history gap,agent responding to email couldnt see phone call from last week logged in legacy,had to ask cust to repeat context
+T-1045,2026-08-15,Kestrel Energy,phone,PSR missed comms again,"cust on PSR didnt get large-print bill again, 3rd time raised this quarter for this account",escalating to ops lead
+T-1046,2026-08-16,Solent Gas & Power,chat,payment plan query,routine,fine
+T-1047,2026-08-17,Orkney Watts,phone,switching screens for balance check,"cust asking about balance, agent had to check both systems as they didnt match again",same pattern as T-1035
+T-1048,2026-08-18,Bramble Power,phone,DD amend call only,cust wanted DD moved to 1st of month,manual process only
+T-1049,2026-08-19,Fenwick Energy,phone,routine query,fine,no issue
+T-1050,2026-08-20,Kestrel Energy,email,PSR flagging still an issue,ops raised internally that PSR flagging keeps coming up in QA reviews across multiple agents,worth a proper look - not a one off

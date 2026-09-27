@@ -1,0 +1,32 @@
+#leadership-product
+──────────────────────────────────────
+
+Marcus Webb (CEO)  [09:14]
+Just got out of a demo with PowerGrid Nexus's sales team (long story, don't ask 😅). Their whole pitch was this gamified real-time energy usage dashboard for end consumers - like a Duolingo-style streak thing for saving energy, leaderboards vs neighbours, badges, the works. It looked SO slick.
+
+Marcus Webb (CEO)  [09:15]
+I think we need something like this. Every supplier we talk to is obsessed with "engagement" right now and this is exactly the kind of thing that wins us logos in pitches
+
+Priya Shah (Head of Sales)  [09:22]
+Agreed, I've had 2 prospects this quarter ask "what's your consumer engagement story" almost verbatim. Feels like table stakes is shifting
+
+Marcus Webb (CEO)  [09:23]
+Right?? Can we get something like this prioritised for next quarter. Even a v1 would be a great story for the sales deck
+
+Dev Patel (Eng Lead)  [10:01]
+Worth noting we already have an Insights dashboard that's meant to do something similar (usage viz for end customers) - might be worth checking how that's actually landing before we build a v2 of it
+
+Marcus Webb (CEO)  [10:03]
+Sure but that's pretty basic isn't it, this would be a totally different tier of experience. Gamification is the bit that's missing
+
+Priya Shah (Head of Sales)  [10:05]
++1, I don't think prospects are picturing our current dashboard when they ask about this
+
+Tom Reyes (Ops Director)  [10:41]
+Just flagging - not to derail this, but PSR flagging has come up in 3 separate QA reviews this month and now in a couple of lost deals too. Might be worth a look alongside whatever else is queued 👀
+
+Marcus Webb (CEO)  [10:44]
+Noted, let's get both in front of the roadmap review. But I really want to make some noise with this dashboard idea, it's the kind of thing that gets us on stage at the industry conference too
+
+Priya Shah (Head of Sales)  [10:45]
+Agreed, feels like a big opportunity 🚀

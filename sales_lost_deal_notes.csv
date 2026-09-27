@@ -1,0 +1,7 @@
+id,date,prospect_name,deal_size_gbp,reason_lost,notes
+S-01,2026-06-15,Harbour Light Energy,42000,Chose rival platform,Prospect said the rival's automated vulnerability/PSR flagging during onboarding was a deciding factor - flagged as a compliance risk reducer they couldn't get from us without manual process
+S-02,2026-06-28,Greywater Utilities,38000,Went with incumbent renewal,Mostly a pricing decision, not product related
+S-03,2026-07-10,Marsh & Co Energy,55000,Chose rival platform,"Explicitly cited ""no automated vulnerability detection"" as a gap vs the competitor's platform during the demo debrief, said their compliance team flagged it as a blocker"
+S-04,2026-07-22,Thistledown Power,29000,Budget frozen internally,Not a competitive loss, prospect paused all vendor decisions this quarter
+S-05,2026-08-05,Northgate Energy Ltd,61000,Chose rival platform,"Prospect's ops director specifically asked whether PSR flagging was automatic during eval; when told it was manual, said the rival product does this automatically and that tipped the decision"
+S-06,2026-08-19,Coastal Fuel & Power,33000,Lost to smaller cheaper competitor,Pure price sensitivity, no product feedback given
